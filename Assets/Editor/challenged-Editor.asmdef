@@ -1,0 +1,10 @@
+{
+  "name": "challenged-Editor",
+  "references": [
+    "challenged"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": []
+}
