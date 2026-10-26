@@ -12,6 +12,7 @@ public class challengedScript : MonoBehaviour
 	public List<MeshRenderer> buttonsMesh;
 	public KMBombModule Module;
 	public KMAudio Audio;
+    public AudioClip stage;
 
 	static int ModuleIdCounter;
 	int ModuleId;
@@ -171,6 +172,7 @@ public class challengedScript : MonoBehaviour
 
 	void nextStage()
 	{
+		Audio.PlaySoundAtTransform(stage.name, transform);
 		int whites = currentBoard.Count(x => x == 4);
 		if (whites == 9)
 		{

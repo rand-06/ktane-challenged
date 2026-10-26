@@ -1103,6 +1103,7 @@ MonoBehaviour:
   - {fileID: 23879507049775812}
   Module: {fileID: 114180444226269012}
   Audio: {fileID: 114663060378266986}
+  stage: {fileID: 8300000, guid: cf4f09ece9532634ba70096cef57af2f, type: 3}
 --- !u!114 &114180444226269012
 MonoBehaviour:
   m_ObjectHideFlags: 1
